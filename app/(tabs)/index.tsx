@@ -1,11 +1,23 @@
+import { Stack } from 'expo-router'
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, Touchable, TouchableOpacity, View , Image} from 'react-native'
 
 const Index = () => {
   return (
- <View style={styles.container}>
-    <Text>index</Text>
- </View>
+ <Stack.Screen options={{ 
+  headerTransparent: true,
+  headerTitle: "",
+  headerLeft: () => (
+    <TouchableOpacity onPress={() => {}} style{{ marginleft:20 }}>
+      <Image
+source={{
+  url: "",
+  }}
+  style={{ width:40, height: 40, borderRadius: 10 }}
+      />
+    </TouchableOpacity>
+  ),
+  }} />
   )
 }
 
