@@ -4,7 +4,9 @@ import { StyleSheet, Text, View } from 'react-native'
 const Index = () => {
   return (
  <View style={styles.container}>
-    <Text>index</Text>
+    <Text>category
+        
+    </Text>
  </View>
   )
 }
