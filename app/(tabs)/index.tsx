@@ -6,7 +6,7 @@ import { StyleSheet, Text, Touchable, TouchableOpacity, View , Image} from 'reac
 import {useHeaderHeight} from '@react-navigation/elements';
 import { TextInput } from 'react-native-gesture-handler';
 import { SearchBar } from 'react-native-screens';
-
+import CategoryButton from '@/components/CategoryButton';
 
 const Index = () => {
   const headerHeight = useHeaderHeight();
@@ -52,14 +52,15 @@ source={{
    />
    <TextInput placeholder='Search.....' />
    </View>
-   <TouchableOpacity onPress={() => {styles.filterBtn}}>
+   <TouchableOpacity onPress={() => {}} style={styles.filterBtn}>
     <Ionicons name='options' size={28} color={Colors.white} />
    </TouchableOpacity>
   </View>
+ <CategoryButton />
   </View>
   </>
-  )
-}
+  );
+};
 
 export default Index
 
@@ -90,7 +91,11 @@ flex: 1,
 
   },
   filterBtn:{
-    backgroundColor:Colors.primaryColor
+    backgroundColor:Colors.primaryColor,
+    padding: 12,
+    borderRadius: 10,
+    marginLeft: 20,
+
 
   }
 
