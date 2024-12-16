@@ -34,9 +34,9 @@ export default function Layout() {
      options={{ tabBarIcon: ({ color }) => (
       <View style={{ backgroundColor:Colors.primaryColor,
       paddingHorizontal: 16,
-      paddingVertical: 12,
+      paddingVertical: 17,
       borderRadius: 10,
-      height: 50,
+      height: 45,
        }}
        >
          <Ionicons name="search-outline" size={28} color={color} />

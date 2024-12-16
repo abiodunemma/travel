@@ -1,0 +1,201 @@
+[
+    {
+        "id": "1",
+        "name": "Tropical Paradise Resort",
+        "image": "https://www.escapenormal.com/wp-content/uploads/2012/06/5981586f0f998f227e87f9dcd54f5c6f.jpg?ezimgfmt=ng:webp/ngcb2",
+        "description": "Escape to the ultimate Tropical paradise retreat with Ninate.",
+        "rating": 4.8,
+        "price": "150",
+        "duration": "3",
+        "location": "Pacific Ocean",
+        "category": "Beaches"
+    },
+    {
+        "id": "2",
+        "name": "Ocean Breeze Hotel",
+        "image": "https://www.escapenormal.com/wp-content/uploads/2017/05/Angkor-wat-Cambodia.jpg?ezimgfmt=rs:259x194/rscb2/ng:webp/ngcb2",
+        "description": "Relax with the sound of waves at the Ocean Breeze Hotel.",
+        "rating": 4.6,
+        "price": "120",
+        "duration": "4",
+        "location": "Caribbean Sea",
+        "category": "Beaches"
+    },
+    {
+        "id": "3",
+        "name": "Mountain Retreat Lodge",
+        "image": "https://www.escapenormal.com/wp-content/uploads/2017/05/Icelands-Blue-Lagoon-365x360.jpg?ezimgfmt=ngcb2/notWebP",
+        "description": "Find peace and quiet at this serene mountain getaway.",
+        "rating": 4.9,
+        "price": "200",
+        "duration": "5",
+        "location": "Swiss Alps",
+        "category": "Mountains"
+    },
+    {
+        "id": "4",
+        "name": "Desert Mirage Resort",
+        "image": "https://www.escapenormal.com/wp-content/uploads/2017/05/Maldives.png?ezimgfmt=rs:300x224/rscb2/ngcb2/notWebP",
+        "description": "Discover luxury in the middle of the vast desert landscape.",
+        "rating": 4.7,
+        "price": "180",
+        "duration": "2",
+        "location": "Sahara Desert",
+        "category": "Deserts"
+    },
+    {
+        "id": "5",
+        "name": "Icy Peaks Lodge",
+        "image": "https://www.escapenormal.com/wp-content/uploads/2017/05/Yellowstone-500x500.jpg?ezimgfmt=ng:webp/ngcb2",
+        "description": "A winter wonderland retreat surrounded by snow-covered peaks.",
+        "rating": 4.9,
+        "price": "220",
+        "duration": "6",
+        "location": "Rocky Mountains",
+        "category": "Snow"
+    },
+    {
+        "id": "6",
+        "name": "Cityscape Towers",
+        "image": "https://www.escapenormal.com/wp-content/uploads/2017/05/Glass-beach-california-365x365.jpg?ezimgfmt=ng:webp/ngcb2",
+        "description": "A luxury hotel in the heart of the bustling metropolis.",
+        "rating": 4.6,
+        "price": "250",
+        "duration": "3",
+        "location": "New York City",
+        "category": "City"
+    },
+    {
+        "id": "7",
+        "name": "Riverside Serenity Inn",
+        "image": "https://www.escapenormal.com/wp-content/uploads/2017/05/Pamukkale-Turkey-365x320.jpg?ezimgfmt=rs:365x320/rscb2/ng:webp/ngcb2",
+        "description": "A peaceful retreat along the riverbank, perfect for relaxation.",
+        "rating": 4.8,
+        "price": "160",
+        "duration": "3",
+        "location": "Amazon River",
+        "category": "Rivers"
+    },
+    {
+        "id": "8",
+        "name": "Lakeside Luxury Resort",
+        "image": "",
+        "description": "Enjoy picturesque lake views and luxurious amenities.",
+        "rating": 4.7,
+        "price": "175",
+        "duration": "4",
+        "location": "Lake Tahoe",
+        "category": "Lakes"
+    },
+    {
+        "id": "9",
+        "name": "Rainforest Oasis",
+        "image": "https://www.escapenormal.com/wp-content/uploads/2017/05/Lava-flows-hawaii-500x500.png?ezimgfmt=ng:webp/ngcb2",
+        "description": "Experience the magic of the rainforest at this lush retreat.",
+        "rating": 4.9,
+        "price": "210",
+        "duration": "7",
+        "location": "Costa Rica",
+        "category": "Rainforests"
+    },
+    {
+        "id": "10",
+        "name": "Coral Reef Resort",
+        "image": "",
+        "description": "Dive into the blue waters of a tropical coral reef paradise.",
+        "rating": 4.8,
+        "price": "190",
+        "duration": "4",
+        "location": "Great Barrier Reef",
+        "category": "Underwater"
+    },
+    {
+        "id": "11",
+        "name": "Sandy Shores Retreat",
+        "image": "https://www.escapenormal.com/wp-content/uploads/2017/05/St.-Lucia-300x260.jpg?ezimgfmt=rs:300x260/rscb2/ng:webp/ngcb2",
+        "description": "A beachfront escape with crystal-clear waters and golden sands.",
+        "rating": 4.7,
+        "price": "130",
+        "duration": "5",
+        "location": "Maldives",
+        "category": "Beaches"
+    },
+    {
+        "id": "12",
+        "name": "Northern Lights Lodge",
+        "image": "https://www.escapenormal.com/wp-content/uploads/2017/05/Santorini-Greece-365x365.jpg?ezimgfmt=ng:webp/ngcb2",
+        "description": "Witness the beauty of the northern lights from this cozy lodge.",
+        "rating": 5.0,
+        "price": "300",
+        "duration": "5",
+        "location": "Iceland",
+        "category": "Snow"
+    },
+    {
+        "id": "13",
+        "name": "Tundra Lodge",
+        "image": "https://www.escapenormal.com/wp-content/uploads/2017/05/Neuschwanstein-Castle-Germany-500x500.png?ezimgfmt=ng:webp/ngcb2",
+        "description": "A remote getaway amidst the endless tundra landscape.",
+        "rating": 4.5,
+        "price": "250",
+        "duration": "6",
+        "location": "Arctic Circle",
+        "category": "Snow"
+    },
+    {
+        "id": "14",
+        "name": "Golden Sands Resort",
+        "image": "https://www.escapenormal.com/wp-content/uploads/2017/05/Marble-Caves-Chile-500x500.png?ezimgfmt=ng:webp/ngcb2",
+        "description": "A luxurious retreat with golden beaches and spectacular sunsets.",
+        "rating": 4.8,
+        "price": "170",
+        "duration": "3",
+        "location": "Bora Bora",
+        "category": "Beaches"
+    },
+    {
+        "id": "15",
+        "name": "Sunset Bay Resort",
+        "image": "https://www.escapenormal.com/wp-content/uploads/2017/05/Chittorgarh-Fort-India-365x365.jpg?ezimgfmt=ng:webp/ngcb2",
+        "description": "Unwind while watching breathtaking sunsets over the bay.",
+        "rating": 4.7,
+        "price": "140",
+        "duration": "2",
+        "location": "Hawaii",
+        "category": "Beaches"
+    },
+    {
+        "id": "16",
+        "name": "Wildlife Safari Lodge",
+        "image": "",
+        "description": "Explore the wild on an unforgettable safari adventure.",
+        "rating": 4.6,
+        "price": "300",
+        "duration": "5",
+        "location": "Serengeti National Park",
+        "category": "Wildlife"
+    },
+    {
+        "id": "17",
+        "name": "Skyline View Hotel",
+        "image": "",
+        "description": "Enjoy sweeping views of the city skyline from this chic hotel.",
+        "rating": 4.5,
+        "price": "250",
+        "duration": "3",
+        "location": "Dubai",
+        "category": "City"
+    },
+    {
+        "id": "18",
+        "name": "Candlewood Manor",
+        "image": "",
+        "description": "A cozy manor offering a warm atmosphere and luxurious comfort.",
+        "rating": 4.7,
+        "price": "210",
+        "duration": "3",
+        "location": "England",
+        "category": "Countryside"
+    }
+  
+]

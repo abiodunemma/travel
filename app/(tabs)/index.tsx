@@ -1,15 +1,23 @@
 import { Ionicons } from '@expo/vector-icons'
 import { Stack } from 'expo-router'
-import React from 'react'
+import React, { useState } from 'react'
 import Colors from '@/constants/Colors';
 import { StyleSheet, Text, Touchable, TouchableOpacity, View , Image} from 'react-native'
 import {useHeaderHeight} from '@react-navigation/elements';
-import { TextInput } from 'react-native-gesture-handler';
+import { TextInput } from 'react-native';
 import { SearchBar } from 'react-native-screens';
 import CategoryButton from '@/components/CategoryButton';
+import Listings from '@/components/Listings';
+import ListingData from '@/components/destination.json';
 
 const Index = () => {
   const headerHeight = useHeaderHeight();
+  const [category, setCategory] = useState('All');
+
+  const onCatChanged = (category: string) => {
+    console.log("category:", category);
+    setCategory(category);
+  }
   return (
     <>
  <Stack.Screen options={{ 
@@ -19,7 +27,7 @@ const Index = () => {
     <TouchableOpacity onPress={() => {}} style={{ marginLeft:20 }}>
       <Image
 source={{
-  uri: "https://xsgams.co/randomusers/avater.php?g=female"
+  uri: "https://img.freepik.com/free-photo/beautiful-black-woman-with-afro-curls-hairstyle-smiling-model-orange-hoodie-trendy-jeans-clothes_158538-18903.jpg?t=st=1734345274~exp=1734348874~hmac=de544b341055d5b0351cfd244342983b9245f2a437184ee0e97e5a77ceb2c5c0&w=740"
   }}
   style={{ width:40, height: 40, borderRadius: 10 }}
       />
@@ -56,7 +64,8 @@ source={{
     <Ionicons name='options' size={28} color={Colors.white} />
    </TouchableOpacity>
   </View>
- <CategoryButton />
+ <CategoryButton onCagtegoryChanged={onCatChanged}/>
+ <Listings  listings={ListingData} />
   </View>
   </>
   );
