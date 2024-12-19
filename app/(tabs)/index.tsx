@@ -19,7 +19,7 @@ const Index = () => {
     setCategory(category);
   }
   return (
-    <>
+    <>k
  <Stack.Screen options={{ 
   headerTransparent: true,
   headerTitle: "",
