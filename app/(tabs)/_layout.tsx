@@ -15,7 +15,7 @@ export default function Layout() {
     },
     tabBarShowLabel: false,
     tabBarActiveTintColor:Colors.black,
-    tabBarInactiveTintColor: '#F999'
+    tabBarInactiveTintColor: 'grey'
     }}>
     
     <Tabs.Screen name='index' 
@@ -30,13 +30,16 @@ export default function Layout() {
     ),
      }}/>
 
-    <Tabs.Screen name='search'
-     options={{ tabBarIcon: ({ color }) => (
-      <View style={{ backgroundColor:Colors.primaryColor,
+    <Tabs.Screen 
+    name='search'
+     options={{ 
+      tabBarIcon: ({ color }) => (
+      <View
+       style={{ backgroundColor:Colors.primaryColor,
       paddingHorizontal: 16,
-      paddingVertical: 17,
+      paddingVertical: 12,
       borderRadius: 10,
-      height: 45,
+      height: 50,
        }}
        >
          <Ionicons name="search-outline" size={28} color={color} />
