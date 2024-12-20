@@ -7,6 +7,8 @@ import { useHeaderHeight } from '@react-navigation/elements';
 import CategoryButton from '@/components/CategoryButton';
 import Listings from '@/components/Listings';
 import ListingData from '@/data/destination.json';
+import GroupListing from '@/components/GroupListing';
+import gropdata from "@/data/groups.json";
 
 const Index = () => {
   const headerHeight = useHeaderHeight();
@@ -54,7 +56,7 @@ const Index = () => {
       />
       
       {/* Scrollable Content */}
-      <ScrollView contentContainerStyle={[styles.container, { paddingTop: headerHeight }]}>
+      <ScrollView contentContainerStyle={[styles.container, { paddingTop: headerHeight }]} showsVerticalScrollIndicator={false}>
         <Text style={styles.headingTxt}>Explore The Beautiful World!</Text>
 
         <View style={styles.searchSectionWrapper}>
@@ -76,7 +78,8 @@ const Index = () => {
         <CategoryButton onCagtegoryChanged={onCatChanged} />
 
         {/* Listings Component */}
-        <Listings listings={ListingData} />
+        <Listings listings={ListingData} category={{ category }} />
+     <GroupListing  listings={gropdata} />
       </ScrollView>
     </>
   );

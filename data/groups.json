@@ -1,0 +1,253 @@
+[
+    {
+        "id": "1",
+        "name": "Holiday Travel Agency",
+        "image": "https://media.istockphoto.com/id/1129845783/photo/lagos-nigeria-lekki-ikoyi-bridge-lagos-landmark-infrastructure-and-urban-transportation.jpg?s=612x612&w=0&k=20&c=feTQNjRA0-tAuekoOo6Wr3N71gomagul1vGLB9dMxgE=",
+        "rating": 4.7,
+        "reviews": 1450
+    },
+    {
+        "id": "2",
+        "name": "Global Adventures",
+        "image": "https://media.istockphoto.com/id/1309040347/photo/cityscape-and-skyline-of-lagos-island-ikoyi-and-victoria-island.jpg?s=612x612&w=0&k=20&c=WFSMG5XBmmjm8yDFNv5GEP3GnN086MC72JWjbtra9IU=",
+        "rating": 4.9,
+        "reviews": 1800
+    },
+    {
+        "id": "3",
+        "name": "Sunset Travels",
+        "image": "https://media.istockphoto.com/id/477446790/photo/downtown-market-streets-lagos-nigeria.jpg?s=612x612&w=0&k=20&c=xRnuywKyp9MmGI4ES1l6u26ArE5jK3YSdNyh6B4QxwM=",
+        "rating": 4.5,
+        "reviews": 1200
+    },
+    {
+        "id": "4",
+        "name": "Majestic Journeys",
+        "image": "https://media.istockphoto.com/id/535420069/photo/downtown-lagos-nigeria.jpg?s=612x612&w=0&k=20&c=hNITW3vuiz43GL9bcpqV3lfMJJvyg4boIpstYLvI2Ec=",
+        "rating": 4.8,
+        "reviews": 2000
+    },
+    {
+        "id": "5",
+        "name": "Explorer's Paradise",
+        "image": "https://media.istockphoto.com/id/518024848/photo/lekki-ikoyi-link-bridge-lagos-nigeria.jpg?s=612x612&w=0&k=20&c=7YjY3LAO7k88jaMsFfZPdVosMXSVjasiIirdVmlcLs4=",
+        "rating": 5.0,
+        "reviews": 2500
+    },
+    {
+        "id": "6",
+        "name": "Wanderlust Expeditions",
+        "image": "https://images.unsplash.com/photo-1519659528534-7fd733a832a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGFmcmljYXxlbnwwfHwwfHx8MA%3D%3D",
+        "rating": 4.6,
+        "reviews": 1100
+    },
+    {
+        "id": "7",
+        "name": "Ocean Breeze Travel",
+        "image": "https://media.istockphoto.com/id/518185306/photo/lagos-docks-nigeria.jpg?s=612x612&w=0&k=20&c=dD7wXn35wbNuuUjjHl5FcSqe_OOA6QbuaYBEuK9v1eM=",
+        "reviews": 900
+    },
+    {
+        "id": "8",
+        "name": "Sky High Holidays",
+        "image": "https://media.istockphoto.com/id/157372879/photo/zuma-rock.jpg?s=612x612&w=0&k=20&c=8T9-B1cZx18yb3i-B-wUiBt77SZPta2bqtr6kr3pRPI=",
+        "rating": 4.3,
+        "reviews": 1050
+    },
+    {
+        "id": "9",
+        "name": "Perfect Getaways",
+        "image": "https://media.istockphoto.com/id/472243126/photo/busy-streets-of-lagos-nigeria.jpg?s=612x612&w=0&k=20&c=QhWk_5PzZVO1dgf7X3_ZnFh--JvSWj8KV4wWt7M_z00=",
+        "rating": 4.8,
+        "reviews": 1600
+    },
+    {
+        "id": "10",
+        "name": "Serene Retreats",
+        "image": "https://media.istockphoto.com/id/1393678131/photo/christ-church-lagos.jpg?s=612x612&w=0&k=20&c=ZkpMoO2zdrUnvF_nW81P3J198evQiICBOn1ULPc9hys=",
+        "rating": 4.7,
+        "reviews": 1350
+    },
+    {
+        "id": "11",
+        "name": "Adventure World",
+        "image": "https://media.istockphoto.com/id/536018621/photo/downtown-lagos-nigeria.jpg?s=612x612&w=0&k=20&c=wvNxCp0WSRU5s3U7vDmsbwyVCCgz5RzC-lQX3nhcA8U=g",
+        "rating": 4.6,
+        "reviews": 1250
+    },
+    {
+        "id": "12",
+        "name": "Royal Escape Travel",
+        "image": "https://media.istockphoto.com/id/1137547114/photo/independence-arch-accra-ghana.jpg?s=612x612&w=0&k=20&c=i92l_C5U1OUneX7fOL0XXPOyDKd2ZVldvsl7-bTaGoA=",
+        "rating": 4.5,
+        "reviews": 950
+    },
+    {
+        "id": "13",
+        "name": "Golden Gate Tours",
+        "image": "https://media.istockphoto.com/id/140457533/photo/women-in-ghana-celebrate-independence-day.jpg?s=612x612&w=0&k=20&c=DQZdxLBifYT0I9c19VogjOeCv9_HBAwk2m79rIuL2yg=",
+        "rating": 4.9,
+        "reviews": 2200
+    },
+    {
+        "id": "14",
+        "name": "Island Wonders",
+        "image": "https://media.istockphoto.com/id/1556459503/photo/aerial-of-ghana-accra-black-star-gate.jpg?s=612x612&w=0&k=20&c=sAnENGLglmYOcgnxT9uOyr_zuOeq2bM84ByKRO4LkZo=",
+        "rating": 4.4,
+        "reviews": 800
+    },
+    {
+        "id": "15",
+        "name": "Eternal Wonders",
+        "image": "https://example.com/images/ancient_pyramids_egypt.jpg",
+        "rating": 5.0,
+        "reviews": 3000
+    },
+    {
+        "id": "16",
+        "name": "Tropical Adventures",
+        "image": "https://example.com/images/borabora_luxury.jpg",
+        "rating": 4.7,
+        "reviews": 1450
+    },
+    {
+        "id": "17",
+        "name": "Mountain Escapes",
+        "image": "https://example.com/images/mount_everest_tibet.jpg",
+        "rating": 4.8,
+        "reviews": 1700
+    },
+    {
+        "id": "18",
+        "name": "Desert Mirage Tours",
+        "image": "https://example.com/images/sahara_desert.jpg",
+        "rating": 4.6,
+        "reviews": 1100
+    },
+    {
+        "id": "19",
+        "name": "Cultural Expeditions",
+        "image": "https://example.com/images/taj_mahal_india.jpg",
+        "rating": 4.9,
+        "reviews": 2000
+    },
+    {
+        "id": "20",
+        "name": "Exotic Travels",
+        "image": "https://example.com/images/santorini_greece.jpg",
+        "rating": 4.7,
+        "reviews": 1200
+    },
+    {
+        "id": "21",
+        "name": "Viva Vacations",
+        "image": "https://example.com/images/galapagos_islands.jpg",
+        "rating": 4.9,
+        "reviews": 2300
+    },
+    {
+        "id": "22",
+        "name": "Luxe Getaways",
+        "image": "https://example.com/images/dubai_burj_khalifa.jpg",
+        "rating": 5.0,
+        "reviews": 2800
+    },
+    {
+        "id": "23",
+        "name": "Royal Tours",
+        "image": "https://example.com/images/windsor_castle_uk.jpg",
+        "rating": 4.6,
+        "reviews": 1050
+    },
+    {
+        "id": "24",
+        "name": "Global Treasures",
+        "image": "https://example.com/images/giza_pyramids_egypt.jpg",
+        "rating": 4.7,
+        "reviews": 1500
+    },
+    {
+        "id": "25",
+        "name": "Elite Adventures",
+        "image": "https://example.com/images/everest_base_camp.jpg",
+        "rating": 4.5,
+        "reviews": 900
+    },
+    {
+        "id": "26",
+        "name": "Grand Expeditions",
+        "image": "https://example.com/images/niagara_falls_usa_canada.jpg",
+        "rating": 4.8,
+        "reviews": 1800
+    },
+    {
+        "id": "27",
+        "name": "Oceanic Discoveries",
+        "image": "https://example.com/images/whale_watching_antarctica.jpg",
+        "rating": 4.7,
+        "reviews": 1300
+    },
+    {
+        "id": "28",
+        "name": "Mystic Trails",
+        "image": "https://example.com/images/petra_jordan.jpg",
+        "rating": 4.6,
+        "reviews": 1150
+    },
+    {
+        "id": "29",
+        "name": "Canyon Adventures",
+        "image": "https://example.com/images/grand_canyon_usa.jpg",
+        "rating": 4.8,
+        "reviews": 1500
+    },
+    {
+        "id": "30",
+        "name": "Tropical Bliss Travels",
+        "image": "https://example.com/images/maldives_islands.jpg",
+        "rating": 5.0,
+        "reviews": 3100
+    },
+    {
+        "id": "31",
+        "name": "Alpine Journeys",
+        "image": "https://example.com/images/swiss_alps.jpg",
+        "rating": 4.6,
+        "reviews": 1100
+    },
+    {
+        "id": "32",
+        "name": "Desert Odyssey",
+        "image": "https://example.com/images/grand_canyon_usa.jpg",
+        "rating": 4.9,
+        "reviews": 2100
+    },
+    {
+        "id": "33",
+        "name": "Modern Explorer",
+        "image": "https://example.com/images/louvre_paris.jpg",
+        "rating": 4.7,
+        "reviews": 1400
+    },
+    {
+        "id": "34",
+        "name": "Seaside Adventures",
+        "image": "https://example.com/images/cancun_mexico.jpg",
+        "rating": 4.8,
+        "reviews": 1600
+    },
+    {
+        "id": "35",
+        "name": "Cultural Horizons",
+        "image": "https://example.com/images/rome_colosseum.jpg",
+        "rating": 4.9,
+        "reviews": 2200
+    },
+    {
+        "id": "36",
+        "name": "Eden Getaways",
+        "image": "https://example.com/images/bora_bora.jpg",
+        "rating": 4.6,
+        "reviews": 1050
+    }
+]

@@ -1,5 +1,5 @@
 import { StyleSheet, Image, Text, View, ListRenderItem, TouchableOpacity } from 'react-native'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { FlatList } from 'react-native'
 import { ListingType } from '@/types/listingType';
 import  Colors  from '@/constants/Colors';
@@ -12,6 +12,16 @@ type Props = {
 }
 
 const Listings = ({ listings, category }: Props) => { 
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    console.log('Update Listing');
+    setLoading(true);
+
+    setTimeout(()  => {
+      setLoading(false)
+    }, 2000)
+}, [category]);
 
   const renderItems:ListRenderItem<ListingType> = ({  item  }) => {
     return (
@@ -52,14 +62,14 @@ const Listings = ({ listings, category }: Props) => {
 
   return (
     <View>
-    <FlatList data={listings}
+    <FlatList data={loading ? [] :listings}
      renderItem={renderItems}
      
      horizontal  showsHorizontalScrollIndicator={false}
      />
     </View>
-  )
-}
+  );
+};
 
 
 export default Listings
