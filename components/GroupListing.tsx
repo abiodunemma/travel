@@ -15,8 +15,8 @@ const GroupListing = ({listings}: {listings: GroupType[]}) => {
     <Text style={styles.itemTxt}>{item.name}</Text>
     <View style={{flexDirection: 'row',alignItems: 'center'}}>
         <Ionicons name='star' size={28} color={Colors.primaryColor} />
-    <Text>{item.rating}</Text>
-    <Text>{item.reviews}</Text>
+    <Text style={styles.itemRating}>{item.rating}</Text>
+    <Text style={styles.itemReviews} >{item.reviews}</Text>
     </View>
 </View>
 </View>
@@ -58,12 +58,25 @@ const styles = StyleSheet.create({
         height: 100,
         borderRadius: 18,
         marginRight: 10,
+        
 
     },
     itemTxt: {
         fontSize: 14,
         fontWeight: '600',
         color: Colors.black,
+        marginBottom: 8,
+    
+    },
+    itemRating: {
+        fontSize: 14,
+        fontWeight: '600',
+        color: Colors.black,
+        marginLeft: 5,
+    },
+    itemReviews: {
+fontSize: 14,
+color: '#999'
     }
     
 })

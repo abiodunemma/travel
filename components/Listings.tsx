@@ -25,7 +25,8 @@ const Listings = ({ listings, category }: Props) => {
 
   const renderItems:ListRenderItem<ListingType> = ({  item  }) => {
     return (
-      <Link href={'/listing/${item.id}'} asChild>
+      <Link href={`/listing/${item.id}`} asChild>
+
       <TouchableOpacity  >
       <View style={
         styles.item
